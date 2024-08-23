@@ -1,0 +1,157 @@
+.main {
+    background-color: #4682A9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0;
+
+}
+
+.textdiv {
+    color: #FFFFFF;
+    margin-left: 10%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 3rem;
+    text-decoration: none;
+
+}
+
+.heading {
+    text-decoration: none;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 250px;
+    height: 55px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #79A2CB;
+    color: #FFFFFF;
+    transition: background-color 1s ease;
+}
+
+.button:hover {
+    background-color: #1b689b;
+}
+
+.imagediv {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 5%;
+}
+
+.absimage {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* .textdiv{
+        color: #FFFFFF;
+        padding-left: 100px;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       margin-top: -10%;
+       font-size: 1.5rem;
+    } */
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.button {
+    margin-top: 10px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #79A2CB;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #1b689b;
+}
+
+.absdiv {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 16%;
+    right: 70%;
+
+}
+
+.absimage {
+    height: 100%;
+    width: 100%;
+
+}
+
+.normaldiv {
+    width: 350px;
+    height: 350px;
+    margin-top: 250px;
+    /* border: 10px solid; */
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1250px)
+{
+    .absdiv
+    {
+        width: 250px;
+        height: 250px;
+    }
+
+    .normaldiv
+    {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    .imagediv
+    {
+        display: none;
+    }
+
+    .textdiv
+    {
+        text-align: center;
+        width: 100%;
+        margin: 0px 10px;
+    }
+
+    .heading
+    {
+        text-align: center;
+    }
+}
